@@ -1,0 +1,16 @@
+body {
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'Avenir', sans-serif;    
+  }
+  
+  /* Centered Image Code */
+  
+   .center {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
