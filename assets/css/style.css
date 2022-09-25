@@ -359,7 +359,7 @@ h6,
   /*background-image: url("../img/background.jpg");*/
   background:#3d3d3d;
   border-bottom: 2px solid #fcebe3;
-  margin: 100px 0 -72px 0;
+  margin: 72px 0 -72px 0;
 }
 
 #hero h1 {
@@ -428,14 +428,14 @@ h6,
   }
 
   #hero .hero-img img {
-    width: 100%;
+    width: 90%;
     object-fit: fill;
   }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 100%;
+    width: 70%;
     object-fit: fill;
   }
 }
