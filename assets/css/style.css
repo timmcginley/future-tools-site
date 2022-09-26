@@ -12,18 +12,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300&display=swap');
 
 body {
-  font-family: 'Bebas Neue', cursive;
-font-family: 'Rajdhani', sans-serif;
+
+
+font-family: 'Cairo', sans-serif;
   color: #212529;
 }
 
 a {
-  color: #eb5d1e;
+  color: #3d3d3d;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ef7f4d;
+  color: #000;
   text-decoration: none;
 }
 
@@ -34,8 +35,9 @@ h4,
 h5,
 h6,
 .font-primary {
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Cairo', cursive;
+  font-weight: 400;
+
 }
 
 /*--------------------------------------------------------------
@@ -143,7 +145,7 @@ h6,
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
+  font-size: 20px;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -364,8 +366,9 @@ h6,
 
 #hero h1 {
   margin: 0;
-  font-size: 48px;
-  font-weight: 700;
+  font-family: Cairo;
+  font-size: 36px;
+  font-weight: 300;
   line-height: 56px;
   color: #ffffff;
 }
@@ -565,38 +568,69 @@ section {
 # About
 --------------------------------------------------------------*/
 .about h3 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 34px;
-  color: #4e4039;
+  color: #000;
 }
 
 .about h4 {
-  font-size: 20px;
-  font-weight: 700;
+
   margin-top: 5px;
-  color: #7a6960;
+  color: #3d3d3d;
 }
 
 .about i {
   font-size: 48px;
-  margin-top: 15px;
+  margin-top: 20px;
   color: #3d3d3d;
 }
 
 .about p {
-  font-size: 15px;
-  color: #5a6570;
+  font-size: 20px;
+  color: #000;
 }
 
 @media (max-width: 991px) {
   .about .about-img img {
-    max-width: 70%;
+    max-width: 100%;
+    object-fit:fill
   }
 }
 
 @media (max-width: 767px) {
   .about .about-img img {
     max-width: 90%;
+    object-fit:fill
+  }
+}
+
+/*--------------------------------------------------------------
+# Theory
+--------------------------------------------------------------*/
+.theory p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+
+.theory ul {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  text-indent: 10px;
+}
+
+@media (max-width: 991px) {
+  .about .about-img img {
+    max-width: 100%;
+    object-fit:fill
+  }
+}
+
+@media (max-width: 767px) {
+  .about .about-img img {
+    max-width: 90%;
+    object-fit:fill
   }
 }
 
@@ -639,7 +673,7 @@ section {
 }
 
 .services .description {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 28px;
   margin-bottom: 0;
 }
